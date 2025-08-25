@@ -30,6 +30,7 @@ async function ocr() {
       body: formData,
       headers: {
         Authorization: "Bearer " + api_key,
+        "ngrok-skip-browser-warning": "true"
       },
     });
 
@@ -91,3 +92,4 @@ document.getElementById("uploadBtn").addEventListener("click", () => {
   console.log("Tombol diklik");
   ocr();
 });
+
