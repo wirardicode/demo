@@ -64,6 +64,7 @@ async function translate(text) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "ngrok-skip-browser-warning": "true"
       },
       body: JSON.stringify({
         source: "auto",
@@ -92,4 +93,5 @@ document.getElementById("uploadBtn").addEventListener("click", () => {
   console.log("Tombol diklik");
   ocr();
 });
+
 
