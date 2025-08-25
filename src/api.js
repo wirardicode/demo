@@ -1,2 +1,3 @@
 //set url api disini
-export const urlapi = "http://127.0.0.1:8000"
+
+export const urlapi = "https://0d5382f05fed.ngrok-free.app/"
