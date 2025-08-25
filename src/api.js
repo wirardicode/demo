@@ -1,3 +1,4 @@
 //set url api disini
 
-export const urlapi = "https://0d5382f05fed.ngrok-free.app/"
+export const urlapi = "https://83c6b7c160b9.ngrok-free.app"
+
